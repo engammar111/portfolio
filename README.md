@@ -1,3 +1,0 @@
-# portfolio
-
-#My Online CV
