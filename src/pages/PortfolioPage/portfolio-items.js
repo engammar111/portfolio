@@ -92,4 +92,58 @@ export default [
       </div>
     ),
   },
+  {
+    name: ' Ammar Posts',
+    render: (
+      <div className='portfolio-item'>
+        <div className='portfolio-item__title'> Ammar Posts</div>
+        <div className='portfolio-item__desc'>
+          Simple social network built on the AmmarMVC PHP framework{' '}
+        </div>
+        <div className='portfolio-item__icon'>
+          <i className='fab fa-php'></i>
+          <i className='fab fa-js'></i>
+        </div>
+        <div className='portfolio-item__links'>
+          <a
+            target='_blank'
+            rel='noopener noreferrer'
+            href='http://ammarposts.ezyro.com/'
+          >
+            Ammar Posts
+          </a>
+          <a
+            target='_blank'
+            rel='noopener noreferrer'
+            href='https://github.com/engammar111/sharepost'
+          >
+            Github
+          </a>
+        </div>
+      </div>
+    ),
+  },
+  {
+    name: ' AmmarMVC',
+    render: (
+      <div className='portfolio-item'>
+        <div className='portfolio-item__title'> AmmarMVC</div>
+        <div className='portfolio-item__desc'>
+          PHP framework using MVC model{' '}
+        </div>
+        <div className='portfolio-item__icon'>
+          <i className='fab fa-php'></i>
+        </div>
+        <div className='portfolio-item__links'>
+          <a
+            target='_blank'
+            rel='noopener noreferrer'
+            href='https://github.com/engammar111/AmmarPHPMVC'
+          >
+            Github
+          </a>
+        </div>
+      </div>
+    ),
+  },
 ];
