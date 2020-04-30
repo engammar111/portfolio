@@ -178,10 +178,10 @@ export default [
     ),
   },
   {
-    name: 'modernportfolio',
+    name: 'ModernPortfolio',
     render: (
       <div className='portfolio-item'>
-        <div className='portfolio-item__title'>modern portfolio</div>
+        <div className='portfolio-item__title'>Modern Portfolio</div>
         <div className='portfolio-item__desc'>Portfolio app using Sass </div>
         <div className='portfolio-item__icon'>
           <i className='fab fa-sass'></i>
