@@ -11,7 +11,6 @@ export default [
         </div>
         <div className='portfolio-item__icon'>
           <i className='fab fa-react'></i>
-          <i className='fab fa-redux'></i>
           <i className='fab fa-js'></i>
         </div>
         <div className='portfolio-item__links'>
@@ -20,7 +19,7 @@ export default [
             rel='noopener noreferrer'
             href='https://clotheshop2020.herokuapp.com/'
           >
-            Kitten Gardens
+            ClotheShop
           </a>
           <a
             target='_blank'
