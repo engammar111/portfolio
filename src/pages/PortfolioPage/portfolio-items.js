@@ -2,6 +2,38 @@ import React from 'react';
 
 export default [
   {
+    name: 'ClotheShop',
+    render: (
+      <div className='portfolio-item'>
+        <div className='portfolio-item__title'>ClotheShop</div>
+        <div className='portfolio-item__desc'>
+          E-Commerce web store using React, Redux, Firebase and Firestore{' '}
+        </div>
+        <div className='portfolio-item__icon'>
+          <i className='fab fa-react'></i>
+          <i className='fab fa-redux'></i>
+          <i className='fab fa-js'></i>
+        </div>
+        <div className='portfolio-item__links'>
+          <a
+            target='_blank'
+            rel='noopener noreferrer'
+            href='https://clotheshop2020.herokuapp.com/'
+          >
+            Kitten Gardens
+          </a>
+          <a
+            target='_blank'
+            rel='noopener noreferrer'
+            href='https://github.com/engammar111/clotheshop'
+          >
+            Github
+          </a>
+        </div>
+      </div>
+    ),
+  },
+  {
     name: 'Kitten Gardens',
     render: (
       <div className='portfolio-item'>
@@ -139,6 +171,35 @@ export default [
             target='_blank'
             rel='noopener noreferrer'
             href='https://github.com/engammar111/AmmarPHPMVC'
+          >
+            Github
+          </a>
+        </div>
+      </div>
+    ),
+  },
+  {
+    name: 'modernportfolio',
+    render: (
+      <div className='portfolio-item'>
+        <div className='portfolio-item__title'>modern portfolio</div>
+        <div className='portfolio-item__desc'>Portfolio app using Sass </div>
+        <div className='portfolio-item__icon'>
+          <i className='fab fa-sass'></i>
+          <i className='fab fa-js'></i>
+        </div>
+        <div className='portfolio-item__links'>
+          <a
+            target='_blank'
+            rel='noopener noreferrer'
+            href='https://engammar111.github.io/modernportfolio/'
+          >
+            Modern Portfolio
+          </a>
+          <a
+            target='_blank'
+            rel='noopener noreferrer'
+            href='https://github.com/engammar111/modernportfolio/tree/master'
           >
             Github
           </a>
